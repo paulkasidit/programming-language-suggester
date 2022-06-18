@@ -3,3 +3,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
 }
+
+/* Results Area CSS*/
+.results-area{
+  background-color: aliceblue;
+}
