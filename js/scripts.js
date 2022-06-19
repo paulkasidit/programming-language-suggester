@@ -1,8 +1,7 @@
 // choice possibilties: Python, Ruby On Rails, Swift
-console.log("Script running");
 //Business Logic 
-  //first hide the results area  
 
+//first hide the results area  
 const pythonProgrammingLanguage = "Python is known for simple syntax. It's the number one preferred language for data analysts."; //5
 const rubyProgrammingLanguage = "Ruby On Rails is your programming language. Known for its unique syntax and versatality.";  //6
 const swiftProgrammingLanguage = "Swift is best for developing mobile apps. Famous examples include apps for iOS.";  //7 
@@ -16,14 +15,7 @@ function generateProgrammingLanguage(event){
   const neatMessy = document.querySelector("input[name='neatMessy']:checked").value; //neat val = 0 , messy val = 1
   const gemsSnakes = document.querySelector("input[name='gemsSnakes']:checked").value; // gems val  = 0, snakes val = 1 
   const stressScale = parseInt(document.querySelector("input[name='stressScale']:checked").value); //range from 8 - 12 based on respective value 
-   
-  //See if element is returned to page 
-  console.log(fieldOfWork);
-  console.log(creativeAnalytical);
-  console.log(neatMessy);
-  console.log(gemsSnakes);
-  console.log(stressScale);
-
+  
   let careerField = 0; // intialize intial variable and assign a numerical value to each career path; 
   // determine the career path user wants to take  
   if (fieldOfWork === "dataAnalytics"){
@@ -36,7 +28,7 @@ function generateProgrammingLanguage(event){
     careerField += 7; 
   }
 
-  // assigning numerical values to the choices of two choice questions
+  // assigning numerical values to the values of two choice questions
   let messy = 0;
   let analytical = 0; 
   let snakes = 0; 

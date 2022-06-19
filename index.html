@@ -10,12 +10,12 @@
 
   <body>
      <!--Welcome message-->
-    <div id  = "headerBox">
+    <div class  = "headerBox">
       <h1> Hello future programmer.</h1>
     </div>
 
     <!--Introduction Text-->
-    <div id = "intro-text">
+    <div class = "intro-text">
       <p> 
       Hello future programmer. Programming languages are endless. <br>
       Does the selection overwhelm you? Come take this quiz below to <br> 
@@ -24,10 +24,10 @@
     </div>
 
     <!--Programming language suggester-->
-    <div id = "programming-language-suggester-quiz-container">
+    <div class = "programming-language-suggester-quiz-container">
       <form id = "progammingLanguageSuggestor">
       <!--Question 1: What field of work you want to pursue?-->
-        <div id  = "question-cell">
+        <div class  = "question-cell-left">
           <div id = "question-heading-text-box">
           <p>What best describes the field of work do you want to pursue?</p> 
           <input type="radio" id="fieldOfWork" name="fieldOfWork" value="dataAnalytics">
@@ -40,7 +40,7 @@
           </div>
         </div>
       <!--Question 2: Are you creative or analytical?-->
-        <div id = "question-cell">
+        <div class = "question-cell-second-left">
           <div id = "question-heading-text-box">
             <p>Are you creative or analytical?</p> 
             <input type="radio" id="creativeAnalytical" name="creativeAnalytical" value="creative">
@@ -50,7 +50,7 @@
           </div>
         </div>
       <!--Question 3: Are you neat or messy?-->
-        <div id = "question-cell">
+        <div class = "question-cell-center">
           <div id = "question-heading-text-box">
             <p>Are you neat or messy?</p> 
             <input type="radio" id="neatMessy" name="neatMessy"" value="neat">
@@ -60,7 +60,7 @@
           </div>
         </div>
       <!--Question 4: Gems or Snakes?-->
-        <div id = "question-cell">
+        <div class = "question-cell-second-right">
           <div id = "question-heading-text-box">
             <p>Gems or Snakes??</p> 
             <input type="radio" id="gemsSnakes" name="gemsSnakes" value="gems">
@@ -70,7 +70,7 @@
           </div>
         </div>
       <!--Question 5: On a scale of 1-5, do you get stressed easily?-->
-        <div id = "question-cell">
+        <div class = "question-cell-right">
           <div id = "question-heading-text-box">
             <p> On a scale of 1-5, do you get stressd easily?<br>(1 being very chill).</p> 
             <input type="radio" id="stressScale" name="stressScale" value="1">
@@ -85,7 +85,7 @@
             <label for="stressScale">5</label>
           </div>
         </div>
-        <div id = "submit button">
+        <div class = "submit button">
           <button type = "submit" class = "btn">Go!</button>
         </div>
       </form> 
