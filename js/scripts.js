@@ -76,7 +76,7 @@ window.addEventListener("load", function(){
   const form  = document.getElementById("progammingLanguageSuggestor");
   form.addEventListener("submit", generateProgrammingLanguage);
 
-  let resultsArea  = document.getElementById("results-area");
-  resultsArea.style.display = "none";
+  //let resultsArea  = document.getElementById("results-area");
+  //resultsArea.style.display = "none";
 });
 
