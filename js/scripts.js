@@ -74,7 +74,7 @@ function generateProgrammingLanguage(event){
 
 
 window.addEventListener("load", function(){
-  let resultsArea  =document.getElementById("results-area"); 
+  let resultsArea  = document.getElementById("results-area"); 
   resultsArea.style.display = "none";
 
   const form  = document.getElementById("progammingLanguageSuggestor");

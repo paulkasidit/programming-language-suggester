@@ -71,7 +71,6 @@ body {
 #refresh { 
   background-color: rgb(178, 207, 186);
   border: none;
-  text-decoration: underline;
   font-weight: 500px;
   font-size: large;
   position: absolute;
