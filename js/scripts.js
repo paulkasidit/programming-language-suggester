@@ -7,7 +7,6 @@ const rubyProgrammingLanguage = "Ruby On Rails is your programming language. Kno
 const swiftProgrammingLanguage = "Swift is best for developing mobile apps. Famous examples include apps for iOS.";  //7 
 
 function generateProgrammingLanguage(event){
-  event.preventDefault();
   console.log("generateProgrammingLanguage running")
   //getting elements from the form
   const fieldOfWork = document.querySelector("input[name='fieldOfWork']:checked").value;  // data analyst  = 5, web developer = 6, app developer = 7 
@@ -70,10 +69,13 @@ function generateProgrammingLanguage(event){
   document.getElementById("result").innerText = result;
   resultsArea = document.getElementById("results-area");
   resultsArea.removeAttribute("style");
+  event.preventDefault();
 };
 
 
 window.addEventListener("load", function(){
+  event.preventDefault();
+  
   let resultsArea  = document.getElementById("results-area"); 
   resultsArea.style.display = "none";
 
