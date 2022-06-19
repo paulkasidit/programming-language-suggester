@@ -44,7 +44,6 @@ function generateProgrammingLanguage(event){
     stress += 10; 
   }
 
-
   // determining the result
   let result; 
   switch (careerField) { //Starting with the most simple case, Python is the most logical choice for data analyst; 
@@ -76,7 +75,7 @@ window.addEventListener("load", function(){
   const form  = document.getElementById("progammingLanguageSuggestor");
   form.addEventListener("submit", generateProgrammingLanguage);
 
-  //let resultsArea  = document.getElementById("results-area");
-  //resultsArea.style.display = "none";
+  let resultsArea  = document.getElementById("results-area");
+  resultsArea.style.display = "none";
 });
 
