@@ -15,7 +15,7 @@ function generateProgrammingLanguage(event){
   const neatMessy = document.querySelector("input[name='neatMessy']:checked").value; //neat val = 0 , messy val = 1
   const gemsSnakes = document.querySelector("input[name='gemsSnakes']:checked").value; // gems val  = 0, snakes val = 1 
   const stressScale = parseInt(document.querySelector("input[name='stressScale']:checked").value); //range from 8 - 12 based on respective value 
-  
+
   let careerField = 0; // intialize intial variable and assign a numerical value to each career path; 
   // determine the career path user wants to take  
   if (fieldOfWork === "dataAnalytics"){
@@ -65,17 +65,20 @@ function generateProgrammingLanguage(event){
         result = swiftProgrammingLanguage;
         break;
       }
-    }
-
+    } 
   }
-  console.log(result);
+  document.getElementById("result").innerText = result;
+  resultsArea = document.getElementById("results-area");
+  resultsArea.removeAttribute("style");
 };
 
+
 window.addEventListener("load", function(){
+  let resultsArea  =document.getElementById("results-area"); 
+  resultsArea.style.display = "none";
+
   const form  = document.getElementById("progammingLanguageSuggestor");
   form.addEventListener("submit", generateProgrammingLanguage);
 
-  let resultsArea  = document.getElementById("results-area");
-  resultsArea.style.display = "none";
 });
 
