@@ -1,9 +1,13 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 .question-cell-left, .question-cell-second-left, .question-cell-center, .question-cell-second-right, .question-cell-center, .question-cell-right{
   background-color: aqua;
-  border-radius: 30px; 
+  border-radius: 10px; 
   border: 10px;
   overflow: hidden;
   height: 200px;
+  width: 200px;
   max-height: 35vh;
 }
 /* Results Area CSS*/
