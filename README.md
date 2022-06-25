@@ -18,7 +18,7 @@ This Javascript responsive website is used to helps to narrow down the vast choi
 
 - Cloning the repo and viewing the webpage on your local machine
 
-1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed).
+1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed). Open a terminal in your preffered directoy and run this command. 
 
 ```
 git clone https://github.com/paulkasidit/programming-language-suggester 
