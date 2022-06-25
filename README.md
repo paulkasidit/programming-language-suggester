@@ -12,20 +12,20 @@
 
 ## Description
 
-This Javascript responsive website is used to helps to narrow down the vast choices of programming languages you could learn into one suggestion. It is used to help beginners determine the programming language of their choice by initially determing what career path they might be interested in. Results are determine via a somewhat arbitary rubric system, and the result is hidden until the user submits the form. 
+This JavaScript responsive website is used to help to narrow down the vast choices of programming languages you could learn into one suggestion. It is used to help beginners determine the programming language of their choice by initially determining what career path they might be interested in. Results are determined via a somewhat arbitrary rubric system, and the result is hidden until the user submits the form. 
 
 ## Setup/Installation Requirements
 
 - Cloning the repo and viewing the webpage on your local machine
 
-1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed). Open a terminal in your preferred directoy and run this command. 
+1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed). Open a terminal in your preferred directory and run this command. 
 ```
 git clone https://github.com/paulkasidit/programming-language-suggester 
 
 ``` 
 3. Open this folder in your VS Code. 
-2. Install the VS Code live server extension on your VS Code by cliking [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), or by searching the name in the desktop application's extensions marketplace. 
-4. After installation, on the lower right hand corner of VS Code, there will be a button saying to "Go Live". A live editable version of the website should be automatically opened in your browser.
+2. Install the VS Code live server extension on your VS Code by clicking [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), or by searching the name in the desktop application's extensions marketplace. 
+4. After installation, on the lower right-hand corner of VS Code, there will be a button saying to "Go Live". A live editable version of the website should be automatically opened in your browser.
 5. And that's it!.
 
 - You can also visit my webpage directly by clicking [here](https://paulkasidit.github.io/programming-language-suggester)
@@ -59,3 +59,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
