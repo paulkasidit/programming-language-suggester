@@ -24,6 +24,8 @@ function generateProgrammingLanguage(event){
   }
   else if(fieldOfWork === "appDevelopment"){
     careerField += 7; 
+  } else {
+    careerField += 0; 
   }
 
   // assigning numerical values to the values of two choice questions
@@ -40,6 +42,11 @@ function generateProgrammingLanguage(event){
     analytical += 1
   } else if (stressScale >= 3){ 
     stress += 10; 
+  } else { 
+    messy += 0;
+    analytical += 0; 
+    snakes += 0; 
+    stress += 0;
   }
 
   // determining the result
