@@ -16,7 +16,7 @@ This Javascript responsive website is used to helps to narrow down the vast choi
 
 ## Setup/Installation Requirements
 
-#Cloning the repo and viewing the webpage on your local machine
+- Cloning the repo and viewing the webpage on your local machine
 
 1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed).
 
@@ -29,7 +29,7 @@ git clone https://github.com/paulkasidit/programming-language-suggester
 4. After installation, on the lower right hand corner of VS Code, there will be a button saying to "Go Live". A live editable version of the website should be automatically opened in your browser.
 5. And that's it!.
 
-You can visit my webpage by clicking [here](https://paulkasidit.github.io/programming-language-suggester)
+- You can visit my webpage by clicking [here](https://paulkasidit.github.io/programming-language-suggester)
 
 ## Known Bugs
 
