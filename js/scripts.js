@@ -7,7 +7,6 @@ const rubyProgrammingLanguage = "Ruby On Rails is your programming language. Kno
 const swiftProgrammingLanguage = "Swift is best for developing mobile apps. Famous examples include apps for iOS.";  //7 
 
 function generateProgrammingLanguage(event){
-  console.log("generateProgrammingLanguage running")
   //getting elements from the form
   const fieldOfWork = document.querySelector("input[name='fieldOfWork']:checked").value;  // data analyst  = 5, web developer = 6, app developer = 7 
   const creativeAnalytical = document.querySelector("input[name='creativeAnalytical']:checked").value; //creative val  = 0, analytical val  = 1  
